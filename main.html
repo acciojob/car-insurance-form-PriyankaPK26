@@ -10,7 +10,7 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-	<form>
+<form target="main.php" method="post">
 
 <lable for="Name">Name</lable>
 <input type="Text" id="Name" name="Name" required><br><br>
@@ -19,8 +19,8 @@
 <input type="Email" id="Email" name="Email" required><br><br>
 
 <lable for="Gender">Gender</lable><br>
-<input type="radio" id="Female" name="Gender" required>Female
-<input type="radio" id="Male" name="Gender" required>Male<br><br>
+<input type="radio" id="Female" name="Gender" value="Female" required>Female
+<input type="radio" id="Male" name="Gender" value="Male" required>Male<br><br>
 
 <lable for="Cars">Car Brands</lable>
 <select namer="Cars">
