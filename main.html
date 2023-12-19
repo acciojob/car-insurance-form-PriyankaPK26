@@ -13,14 +13,14 @@
 <form method="post">
 
 <label for="name">Name</label>
-<input type="Text" id="name" required><br>
+<input id="name" type="text" required><br>
 
 <label for="email">Email</label>
-<input type="Email" id="email" required><br>
+<input id="email" type="email" required><br>
 
-<label for="Gender">Gender</label><br>
-<input type="radio" id="Female" name="Gender" value="Female" required>Female
-<input type="radio" id="Male" name="Gender" value="Male" required>Male<br>
+	<label for="gender_m" for="gender_f" >Gender</label>
+		<input id="gender_m" type="radio" required name="gender" >Male
+		<input id="gender_f" type="radio" required name="gender">Female<br>
 
 <label for="cars">Car Brands</label>
 <select id="cars">
@@ -30,13 +30,13 @@
 </select><br>
 
 <label for="carage">Car Age</label>
-<input type="Number" id="carage" required><br>
+<input id="carage" type="Number"  required><br>
 
 <label for="dop">Date of Purchase (dop)</label>
-<input type="Date" id="dop" name="dop" required><br>
+<input id="dop" type="Date" name="dop" required><br>
 
 <label for="password">Password</label>
-<input type="Password" id="password" required><br>
+<input id="password" type="Password" required><br>
 
 <button type="submit">Submit Button</button>
 </form>
